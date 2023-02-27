@@ -1,0 +1,12 @@
+let calculator = {
+    function read() {
+        this.a = +prompt('a?', 0);
+        this.b = +prompt('b?', 0);
+    },
+    function sum() {
+        return this.a + this.b;
+    },
+    function mul() {
+        return this.a * this.b;
+    }
+  };
