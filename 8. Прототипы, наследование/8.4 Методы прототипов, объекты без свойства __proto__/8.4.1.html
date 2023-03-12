@@ -1,0 +1,7 @@
+let dictionary = Object.create(null, {
+    toString: { // определяем свойство toString
+      value() { // значение -- это функция
+        return Object.keys(this).join();
+      }
+    }
+});
